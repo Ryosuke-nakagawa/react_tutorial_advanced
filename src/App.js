@@ -1,5 +1,10 @@
 import "./styles.css";
+import { InlineStyle } from "./components/InlineStyle";
 
 export default function App() {
-  return <div></div>;
+  return (
+    <div className="App">
+      <InlineStyle />
+    </div>
+  );
 }
